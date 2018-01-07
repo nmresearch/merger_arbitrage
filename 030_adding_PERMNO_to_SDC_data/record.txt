@@ -1,0 +1,2078 @@
+###############################################################################
+## This file records what were returned after the following two functions.   ##
+## As the record is too long, I saved it in this record.txt file separately. ##
+## Almost all of the companies without matching PERMNO's listed below were   ##
+## also listed in the consistency check of 010_convert_to_PERMNO, which were ##
+## additionally checked through company search online.                       ##
+###############################################################################
+
+
+SDC.data <- add.PERMNO(SDC.data,
+                        "Acquiror_CUSIP",
+                        "Acquiror_Primary_Ticker_Symbol",
+                        "Acquiror_PERMNO", 
+                        WRDS.CRSP.Identifiers)
+
+
+###############################################################################
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                1 
+target           SplitRock Services Inc 
+acquirer         McLeodUSA Inc 
+SDC CUSIP        582266 
+SDC ticker       MUSA 
+Matching CUSIPs and tickers found in CRSP:
+[1] "58226610" "58226670"
+character(0)
+Candidate PERMNOs:
+[1] "83674" "89354"
+[1] "83674" "89354"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                38 
+target           US Home Corp 
+acquirer         Lennar Corp 
+SDC CUSIP        526057 
+SDC ticker       LEN 
+Matching CUSIPs and tickers found in CRSP:
+[1] "52605710" "52605730"
+[1] "LEN"
+Candidate PERMNOs:
+[1] "52708" "89731"
+[1] "52708" "89731"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                40 
+target           Ascent Entertainment Group Inc 
+acquirer         Liberty Media Corp 
+SDC CUSIP        530718 
+SDC ticker       LMC.A 
+Matching CUSIPs and tickers found in CRSP:
+[1] "53071810" "53071820"
+character(0)
+Candidate PERMNOs:
+[1] "89130" "89131"
+[1] "89130" "89131"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                52 
+target           Biomatrix Inc 
+acquirer         Genzyme Biosurgery 
+SDC CUSIP        37240C 
+SDC ticker       GZBX 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+[1] "GZBX"
+Candidate PERMNOs:
+character(0)
+[1] "88838"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                55 
+target           Genzyme Tissue Repair 
+acquirer         Genzyme Surgical Products 
+SDC CUSIP        37291H 
+SDC ticker       GZSP 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+[1] "GZSP"
+Candidate PERMNOs:
+character(0)
+[1] "86970"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                67 
+target           Homestead Village Inc 
+acquirer         Security Capital Group Inc 
+SDC CUSIP        81413P 
+SDC ticker       SCZ 
+Matching CUSIPs and tickers found in CRSP:
+[1] "81413P10" "81413P20"
+[1] "SCZ"
+Candidate PERMNOs:
+[1] "85343" "85344"
+[1] "85343" "85344"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                135 
+target           Infinity Broadcasting Corp 
+acquirer         Viacom Inc 
+SDC CUSIP        925524 
+SDC ticker       VIA 
+Matching CUSIPs and tickers found in CRSP:
+[1] "92552410" "92552430"
+[1] "VIA"
+Candidate PERMNOs:
+[1] "75104" "76226"
+[1] "75104" "76226"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                150 
+target           Shared Technologies Cellular 
+acquirer         SATX Inc 
+SDC CUSIP        78400J 
+SDC ticker       SATXE 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                161 
+target           Herbalife International Inc 
+acquirer         Rbid.com Inc 
+SDC CUSIP        749283 
+SDC ticker       RBDC 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                162 
+target           WLR Foods Inc 
+acquirer         Pilgrim's Pride Corp 
+SDC CUSIP        721467 
+SDC ticker       PGODQ 
+Matching CUSIPs and tickers found in CRSP:
+[1] "72146710" "72146720"
+character(0)
+Candidate PERMNOs:
+[1] "70965" "87040"
+[1] "70965" "87040"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                164 
+target           CapRock Communications Corp 
+acquirer         McLeodUSA Inc 
+SDC CUSIP        582266 
+SDC ticker       MUSA 
+Matching CUSIPs and tickers found in CRSP:
+[1] "58226610" "58226670"
+character(0)
+Candidate PERMNOs:
+[1] "83674" "89354"
+[1] "83674" "89354"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                201 
+target           Marine Transport Corp 
+acquirer         Crowley Maritime Corp 
+SDC CUSIP        228090 
+SDC ticker       CWLM 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                220 
+target           UnitedGlobalCom Inc 
+acquirer         Liberty Media Corp 
+SDC CUSIP        530718 
+SDC ticker       LMC.A 
+Matching CUSIPs and tickers found in CRSP:
+[1] "53071810" "53071820"
+character(0)
+Candidate PERMNOs:
+[1] "89130" "89131"
+[1] "89130" "89131"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                240 
+target           Ravenswood Winery Inc 
+acquirer         Constellation Brands Inc 
+SDC CUSIP        21036P 
+SDC ticker       STZ 
+Matching CUSIPs and tickers found in CRSP:
+[1] "21036P10" "21036P20"
+[1] "STZ"
+Candidate PERMNOs:
+[1] "69796" "64899"
+[1] "69796" "64899" "79193"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                256 
+target           Tri-National Development Corp 
+acquirer         Golden Chest Inc 
+SDC CUSIP        380816 
+SDC ticker       GCHF 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                268 
+target           AXYS Pharmaceuticals Inc 
+acquirer         Celera Genomics Corp 
+SDC CUSIP        03802A 
+SDC ticker       CRA 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                309 
+target           Liberty Digital Inc 
+acquirer         Liberty Media Corp 
+SDC CUSIP        530718 
+SDC ticker       LINTA 
+Matching CUSIPs and tickers found in CRSP:
+[1] "53071810" "53071820"
+character(0)
+Candidate PERMNOs:
+[1] "89130" "89131"
+[1] "89130" "89131"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                316 
+target           Storage USA Inc 
+acquirer         Security Capital Group Inc 
+SDC CUSIP        81413P 
+SDC ticker       SCZ 
+Matching CUSIPs and tickers found in CRSP:
+[1] "81413P10" "81413P20"
+[1] "SCZ"
+Candidate PERMNOs:
+[1] "85343" "85344"
+[1] "85343" "85344"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                321 
+target           Marriott Residence Inn LP 
+acquirer         Apple Hospitality Two Inc 
+SDC CUSIP        037846 
+SDC ticker       N/A 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                328 
+target           WinStar Communications Inc 
+acquirer         IDT Corp 
+SDC CUSIP        448947 
+SDC ticker       IDT 
+Matching CUSIPs and tickers found in CRSP:
+[1] "44894710" "44894730" "44894740" "44894750"
+[1] "IDT"
+Candidate PERMNOs:
+[1] "83275" "88988"
+[1] "83275" "88988"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                352 
+target           Stations Holding Co Inc 
+acquirer         Gray Television Inc 
+SDC CUSIP        389190 
+SDC ticker       GTN 
+Matching CUSIPs and tickers found in CRSP:
+[1] "38919010" "38919020"
+character(0)
+Candidate PERMNOs:
+[1] "39731" "83989"
+[1] "39731" "83989"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                361 
+target           Marriott Residence Inn II LP 
+acquirer         Apple Hospitality Two Inc 
+SDC CUSIP        037846 
+SDC ticker       N/A 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                365 
+target           ACTV Inc 
+acquirer         Liberty Media Corp 
+SDC CUSIP        530718 
+SDC ticker       LINTA 
+Matching CUSIPs and tickers found in CRSP:
+[1] "53071810" "53071820"
+character(0)
+Candidate PERMNOs:
+[1] "89130" "89131"
+[1] "89130" "89131"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                384 
+target           Fortress Group Inc 
+acquirer         Lennar Corp 
+SDC CUSIP        526057 
+SDC ticker       LEN 
+Matching CUSIPs and tickers found in CRSP:
+[1] "52605710" "52605730"
+[1] "LEN"
+Candidate PERMNOs:
+[1] "52708" "89731"
+[1] "52708" "89731"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                385 
+target           Fortress Group Inc 
+acquirer         Lennar Corp 
+SDC CUSIP        526057 
+SDC ticker       LEN 
+Matching CUSIPs and tickers found in CRSP:
+[1] "52605710" "52605730"
+[1] "LEN"
+Candidate PERMNOs:
+[1] "52708" "89731"
+[1] "52708" "89731"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                401 
+target           Apple Suites Inc 
+acquirer         Apple Hospitality Two Inc 
+SDC CUSIP        037846 
+SDC ticker       N/A 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                433 
+target           Graphic Packaging Intl Corp 
+acquirer         Riverwood Holding Inc 
+SDC CUSIP        76951B 
+SDC ticker       RVW 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                439 
+target           ITXC Corp 
+acquirer         IDT Corp 
+SDC CUSIP        448947 
+SDC ticker       IDT 
+Matching CUSIPs and tickers found in CRSP:
+[1] "44894710" "44894730" "44894740" "44894750"
+[1] "IDT"
+Candidate PERMNOs:
+[1] "83275" "88988"
+[1] "83275" "88988"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                519 
+target           International Multifoods Corp 
+acquirer         The JM Smucker Co 
+SDC CUSIP        832696 
+SDC ticker       SJM 
+Matching CUSIPs and tickers found in CRSP:
+[1] "83269610" "83269620" "83269630" "83269640"
+[1] "SJM"
+Candidate PERMNOs:
+[1] "42585" "77058"
+[1] "42585" "77058"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                527 
+target           Metrocall Holdings Inc 
+acquirer         Arch Wireless Inc 
+SDC CUSIP        039392 
+SDC ticker       AWL 
+Matching CUSIPs and tickers found in CRSP:
+[1] "03939210" "03939260" "03939270"
+character(0)
+Candidate PERMNOs:
+[1] "77265" "89385"
+[1] "77265" "89385"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                549 
+target           SportsLine.com Inc 
+acquirer         Viacom Inc 
+SDC CUSIP        925524 
+SDC ticker       VIA 
+Matching CUSIPs and tickers found in CRSP:
+[1] "92552410" "92552430"
+[1] "VIA"
+Candidate PERMNOs:
+[1] "75104" "76226"
+[1] "75104" "76226"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                563 
+target           American Medical Security Grp 
+acquirer         PacifiCare Health Systems Inc 
+SDC CUSIP        695110 
+SDC ticker       PHS 
+Matching CUSIPs and tickers found in CRSP:
+[1] "69511010" "69511020"
+[1] "PHS"
+Candidate PERMNOs:
+[1] "90879" "77712"
+[1] "90879" "77712" "87041"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                571 
+target           Robert Mondavi Corp 
+acquirer         Constellation Brands Inc 
+SDC CUSIP        21036P 
+SDC ticker       STZ 
+Matching CUSIPs and tickers found in CRSP:
+[1] "21036P10" "21036P20"
+[1] "STZ"
+Candidate PERMNOs:
+[1] "69796" "64899"
+[1] "69796" "64899" "79193"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                587 
+target           META Group Inc 
+acquirer         Gartner Inc 
+SDC CUSIP        366651 
+SDC ticker       IT 
+Matching CUSIPs and tickers found in CRSP:
+[1] "36665110" "36665120"
+[1] "IT"
+Candidate PERMNOs:
+[1] "79698" "87030"
+[1] "79698" "87030"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                589 
+target           Fox Entertainment Group Inc 
+acquirer         News Corp 
+SDC CUSIP        65248E 
+SDC ticker       NWS 
+Matching CUSIPs and tickers found in CRSP:
+[1] "65248E10" "65248E20"
+[1] "NWS"
+Candidate PERMNOs:
+[1] "90441" "90442"
+[1] "90441" "90442"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                637 
+target           Net2Phone Inc 
+acquirer         IDT Corp 
+SDC CUSIP        448947 
+SDC ticker       IDT 
+Matching CUSIPs and tickers found in CRSP:
+[1] "44894710" "44894730" "44894740" "44894750"
+[1] "IDT"
+Candidate PERMNOs:
+[1] "83275" "88988"
+[1] "83275" "88988"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                646 
+target           Bootie Beer Corp 
+acquirer         Jane Butel Corp 
+SDC CUSIP        470766 
+SDC ticker       JNBU 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                678 
+target           Provide Commerce Inc 
+acquirer         Liberty Media Corp 
+SDC CUSIP        530718 
+SDC ticker       LINTA 
+Matching CUSIPs and tickers found in CRSP:
+[1] "53071810" "53071820"
+character(0)
+Candidate PERMNOs:
+[1] "89130" "89131"
+[1] "89130" "89131"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                727 
+target           Gold Kist Inc 
+acquirer         Pilgrim's Pride Corp 
+SDC CUSIP        721467 
+SDC ticker       PGODQ 
+Matching CUSIPs and tickers found in CRSP:
+[1] "72146710" "72146720"
+character(0)
+Candidate PERMNOs:
+[1] "70965" "87040"
+[1] "70965" "87040"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                762 
+target           Phelps Dodge Corp 
+acquirer         Freeport-McMoRan Copper & Gold 
+SDC CUSIP        35671D 
+SDC ticker       FCX 
+Matching CUSIPs and tickers found in CRSP:
+[1] "35671D10" "35671D85"
+[1] "FCX"
+Candidate PERMNOs:
+[1] "75294" "81774"
+[1] "75294" "81774"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                775 
+target           ZEVEX International Inc 
+acquirer         Moog Inc 
+SDC CUSIP        615394 
+SDC ticker       MOGA 
+Matching CUSIPs and tickers found in CRSP:
+[1] "61539410" "61539420" "61539430"
+character(0)
+Candidate PERMNOs:
+[1] "42614" "61807"
+[1] "42614" "61807"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                791 
+target           Redpoint Bio Corp 
+acquirer         Robcor Properties Inc 
+SDC CUSIP        77039C 
+SDC ticker       RBCR 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                807 
+target           Dow Jones & Co Inc 
+acquirer         News Corp 
+SDC CUSIP        65248E 
+SDC ticker       NWS 
+Matching CUSIPs and tickers found in CRSP:
+[1] "65248E10" "65248E20"
+[1] "NWS"
+Candidate PERMNOs:
+[1] "90441" "90442"
+[1] "90441" "90442"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                830 
+target           ACR Group Inc 
+acquirer         Watsco Inc 
+SDC CUSIP        942622 
+SDC ticker       WSO 
+Matching CUSIPs and tickers found in CRSP:
+[1] "94262210" "94262220"
+[1] "WSO"
+Candidate PERMNOs:
+[1] "46068" "66376"
+[1] "46068" "66376"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                894 
+target           Hunt Gold Corp 
+acquirer         Fortress Financial Group Inc 
+SDC CUSIP        34956U 
+SDC ticker       FFGO 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                898 
+target           Circuit City Stores Inc 
+acquirer         Blockbuster Inc 
+SDC CUSIP        093679 
+SDC ticker       BBI 
+Matching CUSIPs and tickers found in CRSP:
+[1] "09367910" "09367920"
+[1] "BBI"
+Candidate PERMNOs:
+[1] "87134" "90337"
+[1] "87134" "90337"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                899 
+target           Northwest Airlines Corp 
+acquirer         Delta Air Lines Inc 
+SDC CUSIP        247361 
+SDC ticker       DAL 
+Matching CUSIPs and tickers found in CRSP:
+[1] "24736110" "24736170"
+[1] "DAL"
+Candidate PERMNOs:
+[1] "26112" "91926"
+[1] "26112" "91926"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                907 
+target           CNET Networks Inc 
+acquirer         CBS Corp 
+SDC CUSIP        124857 
+SDC ticker       CBS.A 
+Matching CUSIPs and tickers found in CRSP:
+[1] "12485710" "12485720"
+character(0)
+Candidate PERMNOs:
+[1] "75104" "76226"
+[1] "75104" "76226"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                918 
+target           Corn Products Intl Inc 
+acquirer         Bunge Ltd 
+SDC CUSIP        12056P 
+SDC ticker       BG 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                941 
+target           Emageon Inc 
+acquirer         Health Systems Solutions Inc 
+SDC CUSIP        42223R 
+SDC ticker       HSSO 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                943 
+target           Pacific Sunwear of CA Inc 
+acquirer         Adrenalina Inc 
+SDC CUSIP        00725L 
+SDC ticker       AENAE 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                984 
+target           Ventura Gold Corp 
+acquirer         International Minerals Corp 
+SDC CUSIP        459875 
+SDC ticker       IMZ 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                991 
+target           Switch & Data Facilities Co 
+acquirer         Equinix Inc 
+SDC CUSIP        29444U 
+SDC ticker       EQIX 
+Matching CUSIPs and tickers found in CRSP:
+[1] "29444U10" "29444U50"
+[1] "EQIX"
+Candidate PERMNOs:
+[1] "88519" "89617"
+[1] "88519" "89617"
+
+----------------------
+
+Candidate PERMNOs (i, PERMNO, vol.av): 1 83674 1076616 
+Candidate PERMNOs (i, PERMNO, vol.av): 1 89354 0 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 38 52708 286784.6 
+Candidate PERMNOs (i, PERMNO, vol.av): 38 89731 0 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 40 89130 0 
+Candidate PERMNOs (i, PERMNO, vol.av): 40 89131 0 
+
+i                40 
+resolution.date  11116 
+target           Ascent Entertainment Group Inc 
+acquirer         Liberty Media Corp 
+SDC CUSIP        530718 
+SDC ticker       LMC.A 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                52 
+resolution.date  11309 
+target           Biomatrix Inc 
+acquirer         Genzyme Biosurgery 
+SDC CUSIP        37240C 
+SDC ticker       GZBX 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                55 
+resolution.date  11309 
+target           Genzyme Tissue Repair 
+acquirer         Genzyme Surgical Products 
+SDC CUSIP        37291H 
+SDC ticker       GZSP 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 67 85343 1078.819 
+Candidate PERMNOs (i, PERMNO, vol.av): 67 85344 136397.2 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 135 75104 305325.3 
+Candidate PERMNOs (i, PERMNO, vol.av): 135 76226 3925688 
+
+
+i                150 
+resolution.date  11360 
+target           Shared Technologies Cellular 
+acquirer         SATX Inc 
+SDC CUSIP        78400J 
+SDC ticker       SATXE 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                161 
+resolution.date  11407 
+target           Herbalife International Inc 
+acquirer         Rbid.com Inc 
+SDC CUSIP        749283 
+SDC ticker       RBDC 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 162 70965 31049.41 
+Candidate PERMNOs (i, PERMNO, vol.av): 162 87040 14818.18 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 164 83674 3608019 
+Candidate PERMNOs (i, PERMNO, vol.av): 164 89354 0 
+
+
+i                201 
+resolution.date  11362 
+target           Marine Transport Corp 
+acquirer         Crowley Maritime Corp 
+SDC CUSIP        228090 
+SDC ticker       CWLM 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 220 89130 6967477 
+Candidate PERMNOs (i, PERMNO, vol.av): 220 89131 5022.609 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 240 69796 137985.7 
+Candidate PERMNOs (i, PERMNO, vol.av): 240 64899 181.3492 
+
+
+i                256 
+resolution.date  11687 
+target           Tri-National Development Corp 
+acquirer         Golden Chest Inc 
+SDC CUSIP        380816 
+SDC ticker       GCHF 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                268 
+resolution.date  11642 
+target           AXYS Pharmaceuticals Inc 
+acquirer         Celera Genomics Corp 
+SDC CUSIP        03802A 
+SDC ticker       CRA 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 309 89130 6808349 
+Candidate PERMNOs (i, PERMNO, vol.av): 309 89131 5022.603 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 316 85343 605.2209 
+Candidate PERMNOs (i, PERMNO, vol.av): 316 85344 572749 
+
+
+i                321 
+resolution.date  11927 
+target           Marriott Residence Inn LP 
+acquirer         Apple Hospitality Two Inc 
+SDC CUSIP        037846 
+SDC ticker       N/A 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 328 83275 148552.5 
+Candidate PERMNOs (i, PERMNO, vol.av): 328 88988 69562.32 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 352 39731 13056.52 
+Candidate PERMNOs (i, PERMNO, vol.av): 352 83989 50415.81 
+
+
+i                361 
+resolution.date  11927 
+target           Marriott Residence Inn II LP 
+acquirer         Apple Hospitality Two Inc 
+SDC CUSIP        037846 
+SDC ticker       N/A 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 365 89130 8081456 
+Candidate PERMNOs (i, PERMNO, vol.av): 365 89131 9136.364 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 384 52708 1123130 
+Candidate PERMNOs (i, PERMNO, vol.av): 384 89731 0 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 385 52708 1309247 
+Candidate PERMNOs (i, PERMNO, vol.av): 385 89731 0 
+
+
+i                401 
+resolution.date  12083 
+target           Apple Suites Inc 
+acquirer         Apple Hospitality Two Inc 
+SDC CUSIP        037846 
+SDC ticker       N/A 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                433 
+resolution.date  12272 
+target           Graphic Packaging Intl Corp 
+acquirer         Riverwood Holding Inc 
+SDC CUSIP        76951B 
+SDC ticker       RVW 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 439 83275 138483.8 
+Candidate PERMNOs (i, PERMNO, vol.av): 439 88988 97805.93 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 519 42585 187397.3 
+Candidate PERMNOs (i, PERMNO, vol.av): 519 77058 0 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 527 77265 0 
+Candidate PERMNOs (i, PERMNO, vol.av): 527 89385 143716 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 549 75104 365222.6 
+Candidate PERMNOs (i, PERMNO, vol.av): 549 76226 6678402 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 563 90879 942194 
+Candidate PERMNOs (i, PERMNO, vol.av): 563 77712 0 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 571 69796 558532.1 
+Candidate PERMNOs (i, PERMNO, vol.av): 571 64899 280.5556 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 587 79698 369975.4 
+Candidate PERMNOs (i, PERMNO, vol.av): 587 87030 77785.71 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 589 90441 15774561 
+Candidate PERMNOs (i, PERMNO, vol.av): 589 90442 3824592 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 637 83275 67123.02 
+Candidate PERMNOs (i, PERMNO, vol.av): 637 88988 297867.1 
+
+
+i                646 
+resolution.date  13094 
+target           Bootie Beer Corp 
+acquirer         Jane Butel Corp 
+SDC CUSIP        470766 
+SDC ticker       JNBU 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 678 89130 8194215 
+Candidate PERMNOs (i, PERMNO, vol.av): 678 89131 5733.597 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 727 70965 1085176 
+Candidate PERMNOs (i, PERMNO, vol.av): 727 87040 0 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 762 75294 0 
+Candidate PERMNOs (i, PERMNO, vol.av): 762 81774 5711681 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 775 42614 1608.73 
+Candidate PERMNOs (i, PERMNO, vol.av): 775 61807 144127 
+
+
+i                791 
+resolution.date  13584 
+target           Redpoint Bio Corp 
+acquirer         Robcor Properties Inc 
+SDC CUSIP        77039C 
+SDC ticker       RBCR 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 807 90441 7315570 
+Candidate PERMNOs (i, PERMNO, vol.av): 807 90442 3312912 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 830 46068 351.3944 
+Candidate PERMNOs (i, PERMNO, vol.av): 830 66376 394839.2 
+
+
+i                894 
+resolution.date  13963 
+target           Hunt Gold Corp 
+acquirer         Fortress Financial Group Inc 
+SDC CUSIP        34956U 
+SDC ticker       FFGO 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 898 87134 4547789 
+Candidate PERMNOs (i, PERMNO, vol.av): 898 90337 228963.1 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 899 26112 0 
+Candidate PERMNOs (i, PERMNO, vol.av): 899 91926 11411997 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 907 75104 64663.49 
+Candidate PERMNOs (i, PERMNO, vol.av): 907 76226 5579315 
+
+
+i                918 
+resolution.date  14193 
+target           Corn Products Intl Inc 
+acquirer         Bunge Ltd 
+SDC CUSIP        12056P 
+SDC ticker       BG 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                941 
+resolution.date  14288 
+target           Emageon Inc 
+acquirer         Health Systems Solutions Inc 
+SDC CUSIP        42223R 
+SDC ticker       HSSO 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                943 
+resolution.date  14228 
+target           Pacific Sunwear of CA Inc 
+acquirer         Adrenalina Inc 
+SDC CUSIP        00725L 
+SDC ticker       AENAE 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                984 
+resolution.date  14622 
+target           Ventura Gold Corp 
+acquirer         International Minerals Corp 
+SDC CUSIP        459875 
+SDC ticker       IMZ 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 991 88519 0 
+Candidate PERMNOs (i, PERMNO, vol.av): 991 89617 843330.8
+################################################################################
+
+
+
+SDC.data <- add.PERMNO(SDC.data,
+                        "Target_CUSIP",
+                        "Target_Primary_Ticker_Symbol",
+                        "Target_PERMNO", 
+                        WRDS.CRSP.Identifiers)
+
+
+################################################################################
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                9 
+target           Commercial Intertech Corp 
+acquirer         Parker Hannifin Corp 
+SDC CUSIP        20170X 
+SDC ticker       TEK 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+[1] "TEK"
+Candidate PERMNOs:
+character(0)
+[1] "40061"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                35 
+target           Tallan Inc 
+acquirer         CMGI Inc 
+SDC CUSIP        87441K 
+SDC ticker       TALN 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                55 
+target           Genzyme Tissue Repair 
+acquirer         Genzyme Surgical Products 
+SDC CUSIP        37251H 
+SDC ticker       GZTR 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+[1] "GZTR"
+Candidate PERMNOs:
+character(0)
+[1] "81154"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                70 
+target           Seagate Technology Inc 
+acquirer         Veritas Software Corp 
+SDC CUSIP        811804 
+SDC ticker       STX 
+Matching CUSIPs and tickers found in CRSP:
+[1] "81180410"
+[1] "STX"
+Candidate PERMNOs:
+[1] "69607"
+[1] "69607" "89641"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                137 
+target           Chadmoore Wireless Group Inc 
+acquirer         Nextel Communications Inc 
+SDC CUSIP        157259 
+SDC ticker       MOOR 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                169 
+target           Quantum HDD(Quantum Corp) 
+acquirer         Maxtor Corp 
+SDC CUSIP        74795W 
+SDC ticker       HDD 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+[1] "HDD"
+Candidate PERMNOs:
+character(0)
+[1] "87044"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                183 
+target           American Industrial Properties 
+acquirer         Developers Diversified Realty 
+SDC CUSIP        026791 
+SDC ticker       TCR 
+Matching CUSIPs and tickers found in CRSP:
+[1] "02679110" "02679120"
+[1] "TCR"
+Candidate PERMNOs:
+[1] "68726"
+[1] "68726" "84659"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                256 
+target           Tri-National Development Corp 
+acquirer         Golden Chest Inc 
+SDC CUSIP        89557H 
+SDC ticker       TNAV 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                271 
+target           CMI Corp 
+acquirer         Terex Corp 
+SDC CUSIP        12389Y 
+SDC ticker       CMI 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                321 
+target           Marriott Residence Inn LP 
+acquirer         Apple Hospitality Two Inc 
+SDC CUSIP        571641 
+SDC ticker       NA 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                337 
+target           Glyko Biomedical Ltd 
+acquirer         BioMarin Pharmaceutical Inc 
+SDC CUSIP        379904 
+SDC ticker       GBL 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                352 
+target           Stations Holding Co Inc 
+acquirer         Gray Television Inc 
+SDC CUSIP        857694 
+SDC ticker       NA 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                353 
+target           Unilab Corp 
+acquirer         Quest Diagnostics Inc 
+SDC CUSIP        904763 
+SDC ticker       ULAB 
+Matching CUSIPs and tickers found in CRSP:
+[1] "90476310" "90476320"
+[1] "ULAB"
+Candidate PERMNOs:
+[1] "29496" "89033"
+[1] "29496" "89033"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                361 
+target           Marriott Residence Inn II LP 
+acquirer         Apple Hospitality Two Inc 
+SDC CUSIP        57161X 
+SDC ticker       NA 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                383 
+target           AmeriChoice Corp 
+acquirer         UnitedHealth Group Inc 
+SDC CUSIP        03062Q 
+SDC ticker       AMCH 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                401 
+target           Apple Suites Inc 
+acquirer         Apple Hospitality Two Inc 
+SDC CUSIP        037682 
+SDC ticker       NA 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                408 
+target           Diamond Brands Inc 
+acquirer         Jarden Corp 
+SDC CUSIP        252564 
+SDC ticker       NA 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                421 
+target           Salant Corp 
+acquirer         Perry Ellis International Inc 
+SDC CUSIP        794004 
+SDC ticker       SLNT 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                493 
+target           Rubicon Medical Corp 
+acquirer         Boston Scientific Corp 
+SDC CUSIP        78112Q 
+SDC ticker       RMDC 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                555 
+target           CNL Income Fund Ltd 
+acquirer         US Restaurant Properties Inc 
+SDC CUSIP        125928 
+SDC ticker       XXKVD 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                575 
+target           Barneys New York Inc 
+acquirer         Jones Apparel Group Inc 
+SDC CUSIP        06808T 
+SDC ticker       BNNY 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                593 
+target           UGC Holdings Inc 
+acquirer         Liberty Media Intl Inc 
+SDC CUSIP        913277 
+SDC ticker       UCOMA 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+[1] "UCOMA"
+Candidate PERMNOs:
+character(0)
+[1] "79428"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                611 
+target           Horizon PCS Inc 
+acquirer         iPCS Inc 
+SDC CUSIP        44043U 
+SDC ticker       HZPS 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                617 
+target           Rubicon Medical Corp 
+acquirer         Boston Scientific Corp 
+SDC CUSIP        78112Q 
+SDC ticker       RMDC 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                624 
+target           Salmedix Inc 
+acquirer         Cephalon Inc 
+SDC CUSIP        795467 
+SDC ticker       SMDX 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                632 
+target           Integrated Circuit Systems Inc 
+acquirer         Integrated Device Tech Inc 
+SDC CUSIP        45811K 
+SDC ticker       ICST 
+Matching CUSIPs and tickers found in CRSP:
+[1] "45811K10" "45811K20"
+[1] "ICST"
+Candidate PERMNOs:
+[1] "76704" "88275"
+[1] "76704" "88275"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                639 
+target           PacifiCare Health Systems Inc 
+acquirer         UnitedHealth Group Inc 
+SDC CUSIP        695110 
+SDC ticker       PHS 
+Matching CUSIPs and tickers found in CRSP:
+[1] "69511010" "69511020"
+[1] "PHS"
+Candidate PERMNOs:
+[1] "90879" "77712"
+[1] "90879" "77712" "87041"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                646 
+target           Bootie Beer Corp 
+acquirer         Jane Butel Corp 
+SDC CUSIP        099468 
+SDC ticker       BTIB 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                656 
+target           IWO Holdings Inc 
+acquirer         Sprint Nextel Corp 
+SDC CUSIP        45071T 
+SDC ticker       IWHD 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                660 
+target           AlgoRx Pharmaceuticals Inc 
+acquirer         Corgentech Inc 
+SDC CUSIP        01586T 
+SDC ticker       AGRX 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                699 
+target           Predix Pharmaceuticals Inc 
+acquirer         EPIX Pharmaceuticals Inc 
+SDC CUSIP        74086H 
+SDC ticker       PRDX 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                716 
+target           Clarity Visual Systems Inc 
+acquirer         Planar Systems Inc 
+SDC CUSIP        18063T 
+SDC ticker       NA 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                746 
+target           Inland Retail Real Estate 
+acquirer         Developers Diversified Realty 
+SDC CUSIP        45746N 
+SDC ticker       ZZILR 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                760 
+target           Delta Air Lines Inc 
+acquirer         US Airways Group Inc 
+SDC CUSIP        247361 
+SDC ticker       DAL 
+Matching CUSIPs and tickers found in CRSP:
+[1] "24736110" "24736170"
+[1] "DAL"
+Candidate PERMNOs:
+[1] "26112" "91926"
+[1] "26112" "91926"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                765 
+target           Agere Systems Inc 
+acquirer         LSI Logic Corp 
+SDC CUSIP        00845V 
+SDC ticker       AGR.A 
+Matching CUSIPs and tickers found in CRSP:
+[1] "00845V10" "00845V20" "00845V30"
+character(0)
+Candidate PERMNOs:
+[1] "88917" "89400"
+[1] "88917" "89400"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                778 
+target           Lear Corp 
+acquirer         American Re Partners LP 
+SDC CUSIP        521865 
+SDC ticker       LEA 
+Matching CUSIPs and tickers found in CRSP:
+[1] "52186510" "52186520"
+[1] "LEA"
+Candidate PERMNOs:
+[1] "80422" "93101"
+[1] "80422" "93101"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                791 
+target           Redpoint Bio Corp 
+acquirer         Robcor Properties Inc 
+SDC CUSIP        75771X 
+SDC ticker       RPBC 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                805 
+target           Arkona Inc 
+acquirer         DealerTrack Holdings Inc 
+SDC CUSIP        041268 
+SDC ticker       ARKN 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                825 
+target           Guideline Inc 
+acquirer         infoUSA Inc 
+SDC CUSIP        401716 
+SDC ticker       GDLN 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                851 
+target           McLeodUSA Inc 
+acquirer         PAETEC Holding Corp 
+SDC CUSIP        582266 
+SDC ticker       MUSA 
+Matching CUSIPs and tickers found in CRSP:
+[1] "58226610" "58226670"
+character(0)
+Candidate PERMNOs:
+[1] "83674" "89354"
+[1] "83674" "89354"
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                855 
+target           OneSource Services Inc 
+acquirer         ABM Industries Inc 
+SDC CUSIP        68305X 
+SDC ticker       OSS 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                862 
+target           EqualLogic Inc 
+acquirer         Dell Inc 
+SDC CUSIP        29440V 
+SDC ticker       EQLX 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                882 
+target           Independence Lead Mines Co 
+acquirer         Hecla Mining Co 
+SDC CUSIP        453578 
+SDC ticker       ILDM 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                888 
+target           Cyberview Technology Inc 
+acquirer         International Game Technology 
+SDC CUSIP        23724Z 
+SDC ticker       CYBV 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                894 
+target           Hunt Gold Corp 
+acquirer         Fortress Financial Group Inc 
+SDC CUSIP        445623 
+SDC ticker       HGLC 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                916 
+target           Hostopia.com Inc 
+acquirer         Deluxe Corp 
+SDC CUSIP        44109A 
+SDC ticker       H 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                924 
+target           Lev Pharmaceuticals Inc 
+acquirer         ViroPharma Inc 
+SDC CUSIP        52730C 
+SDC ticker       LEVP 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                963 
+target           Liberty Entertainment Inc 
+acquirer         DirecTV Group Inc 
+SDC CUSIP        53044P 
+SDC ticker       LMDIA 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                980 
+target           Facet Biotech Corp 
+acquirer         Biogen Idec Inc 
+SDC CUSIP        30474M 
+SDC ticker       FACT 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                981 
+target           Lexcom Inc 
+acquirer         Windstream Corp 
+SDC CUSIP        528864 
+SDC ticker       LXCMB 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+Problems finding unique PERMNO in CRSP. Will later look at trading volume.
+i                984 
+target           Ventura Gold Corp 
+acquirer         International Minerals Corp 
+SDC CUSIP        923219 
+SDC ticker       VGO 
+Matching CUSIPs and tickers found in CRSP:
+character(0)
+character(0)
+Candidate PERMNOs:
+character(0)
+character(0)
+
+----------------------
+
+
+i                9 
+resolution.date  11058 
+target           Commercial Intertech Corp 
+acquirer         Parker Hannifin Corp 
+SDC CUSIP        20170X 
+SDC ticker       TEK 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                35 
+resolution.date  11050 
+target           Tallan Inc 
+acquirer         CMGI Inc 
+SDC CUSIP        87441K 
+SDC ticker       TALN 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                55 
+resolution.date  11309 
+target           Genzyme Tissue Repair 
+acquirer         Genzyme Surgical Products 
+SDC CUSIP        37251H 
+SDC ticker       GZTR 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 70 69607 2829451 
+
+
+i                137 
+resolution.date  11743 
+target           Chadmoore Wireless Group Inc 
+acquirer         Nextel Communications Inc 
+SDC CUSIP        157259 
+SDC ticker       MOOR 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                169 
+resolution.date  11414 
+target           Quantum HDD(Quantum Corp) 
+acquirer         Maxtor Corp 
+SDC CUSIP        74795W 
+SDC ticker       HDD 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 183 68726 10551.19 
+
+
+i                256 
+resolution.date  11687 
+target           Tri-National Development Corp 
+acquirer         Golden Chest Inc 
+SDC CUSIP        89557H 
+SDC ticker       TNAV 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                271 
+resolution.date  11596 
+target           CMI Corp 
+acquirer         Terex Corp 
+SDC CUSIP        12389Y 
+SDC ticker       CMI 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                321 
+resolution.date  11927 
+target           Marriott Residence Inn LP 
+acquirer         Apple Hospitality Two Inc 
+SDC CUSIP        571641 
+SDC ticker       NA 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                337 
+resolution.date  11921 
+target           Glyko Biomedical Ltd 
+acquirer         BioMarin Pharmaceutical Inc 
+SDC CUSIP        379904 
+SDC ticker       GBL 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                352 
+resolution.date  11985 
+target           Stations Holding Co Inc 
+acquirer         Gray Television Inc 
+SDC CUSIP        857694 
+SDC ticker       NA 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 353 29496 0 
+Candidate PERMNOs (i, PERMNO, vol.av): 353 89033 427452 
+
+
+i                361 
+resolution.date  11927 
+target           Marriott Residence Inn II LP 
+acquirer         Apple Hospitality Two Inc 
+SDC CUSIP        57161X 
+SDC ticker       NA 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                383 
+resolution.date  11953 
+target           AmeriChoice Corp 
+acquirer         UnitedHealth Group Inc 
+SDC CUSIP        03062Q 
+SDC ticker       AMCH 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                401 
+resolution.date  12083 
+target           Apple Suites Inc 
+acquirer         Apple Hospitality Two Inc 
+SDC CUSIP        037682 
+SDC ticker       NA 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                408 
+resolution.date  12090 
+target           Diamond Brands Inc 
+acquirer         Jarden Corp 
+SDC CUSIP        252564 
+SDC ticker       NA 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                421 
+resolution.date  12222 
+target           Salant Corp 
+acquirer         Perry Ellis International Inc 
+SDC CUSIP        794004 
+SDC ticker       SLNT 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                493 
+resolution.date  12887 
+target           Rubicon Medical Corp 
+acquirer         Boston Scientific Corp 
+SDC CUSIP        78112Q 
+SDC ticker       RMDC 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                555 
+resolution.date  12839 
+target           CNL Income Fund Ltd 
+acquirer         US Restaurant Properties Inc 
+SDC CUSIP        125928 
+SDC ticker       XXKVD 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                575 
+resolution.date  12772 
+target           Barneys New York Inc 
+acquirer         Jones Apparel Group Inc 
+SDC CUSIP        06808T 
+SDC ticker       BNNY 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                593 
+resolution.date  12949 
+target           UGC Holdings Inc 
+acquirer         Liberty Media Intl Inc 
+SDC CUSIP        913277 
+SDC ticker       UCOMA 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                611 
+resolution.date  12965 
+target           Horizon PCS Inc 
+acquirer         iPCS Inc 
+SDC CUSIP        44043U 
+SDC ticker       HZPS 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                617 
+resolution.date  12948 
+target           Rubicon Medical Corp 
+acquirer         Boston Scientific Corp 
+SDC CUSIP        78112Q 
+SDC ticker       RMDC 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                624 
+resolution.date  12948 
+target           Salmedix Inc 
+acquirer         Cephalon Inc 
+SDC CUSIP        795467 
+SDC ticker       SMDX 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 632 76704 0 
+Candidate PERMNOs (i, PERMNO, vol.av): 632 88275 1158028 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 639 90879 1074651 
+Candidate PERMNOs (i, PERMNO, vol.av): 639 77712 0 
+
+
+i                646 
+resolution.date  13094 
+target           Bootie Beer Corp 
+acquirer         Jane Butel Corp 
+SDC CUSIP        099468 
+SDC ticker       BTIB 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                656 
+resolution.date  13076 
+target           IWO Holdings Inc 
+acquirer         Sprint Nextel Corp 
+SDC CUSIP        45071T 
+SDC ticker       IWHD 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                660 
+resolution.date  13132 
+target           AlgoRx Pharmaceuticals Inc 
+acquirer         Corgentech Inc 
+SDC CUSIP        01586T 
+SDC ticker       AGRX 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                699 
+resolution.date  13376 
+target           Predix Pharmaceuticals Inc 
+acquirer         EPIX Pharmaceuticals Inc 
+SDC CUSIP        74086H 
+SDC ticker       PRDX 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                716 
+resolution.date  13403 
+target           Clarity Visual Systems Inc 
+acquirer         Planar Systems Inc 
+SDC CUSIP        18063T 
+SDC ticker       NA 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                746 
+resolution.date  13571 
+target           Inland Retail Real Estate 
+acquirer         Developers Diversified Realty 
+SDC CUSIP        45746N 
+SDC ticker       ZZILR 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 760 26112 0 
+Candidate PERMNOs (i, PERMNO, vol.av): 760 91926 0 
+
+i                760 
+resolution.date  13543 
+target           Delta Air Lines Inc 
+acquirer         US Airways Group Inc 
+SDC CUSIP        247361 
+SDC ticker       DAL 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 765 88917 1862496 
+Candidate PERMNOs (i, PERMNO, vol.av): 765 89400 0 
+
+Candidate PERMNOs (i, PERMNO, vol.av): 778 80422 1471548 
+Candidate PERMNOs (i, PERMNO, vol.av): 778 93101 0 
+
+
+i                791 
+resolution.date  13584 
+target           Redpoint Bio Corp 
+acquirer         Robcor Properties Inc 
+SDC CUSIP        75771X 
+SDC ticker       RPBC 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                805 
+resolution.date  13668 
+target           Arkona Inc 
+acquirer         DealerTrack Holdings Inc 
+SDC CUSIP        041268 
+SDC ticker       ARKN 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                825 
+resolution.date  13745 
+target           Guideline Inc 
+acquirer         infoUSA Inc 
+SDC CUSIP        401716 
+SDC ticker       GDLN 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+Candidate PERMNOs (i, PERMNO, vol.av): 851 83674 0 
+Candidate PERMNOs (i, PERMNO, vol.av): 851 89354 0 
+
+i                851 
+resolution.date  13917 
+target           McLeodUSA Inc 
+acquirer         PAETEC Holding Corp 
+SDC CUSIP        582266 
+SDC ticker       MUSA 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                855 
+resolution.date  13831 
+target           OneSource Services Inc 
+acquirer         ABM Industries Inc 
+SDC CUSIP        68305X 
+SDC ticker       OSS 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                862 
+resolution.date  13906 
+target           EqualLogic Inc 
+acquirer         Dell Inc 
+SDC CUSIP        29440V 
+SDC ticker       EQLX 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                882 
+resolution.date  14189 
+target           Independence Lead Mines Co 
+acquirer         Hecla Mining Co 
+SDC CUSIP        453578 
+SDC ticker       ILDM 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                888 
+resolution.date  14068 
+target           Cyberview Technology Inc 
+acquirer         International Game Technology 
+SDC CUSIP        23724Z 
+SDC ticker       CYBV 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                894 
+resolution.date  13963 
+target           Hunt Gold Corp 
+acquirer         Fortress Financial Group Inc 
+SDC CUSIP        445623 
+SDC ticker       HGLC 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                916 
+resolution.date  14097 
+target           Hostopia.com Inc 
+acquirer         Deluxe Corp 
+SDC CUSIP        44109A 
+SDC ticker       H 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                924 
+resolution.date  14173 
+target           Lev Pharmaceuticals Inc 
+acquirer         ViroPharma Inc 
+SDC CUSIP        52730C 
+SDC ticker       LEVP 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                963 
+resolution.date  14567 
+target           Liberty Entertainment Inc 
+acquirer         DirecTV Group Inc 
+SDC CUSIP        53044P 
+SDC ticker       LMDIA 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                980 
+resolution.date  14595 
+target           Facet Biotech Corp 
+acquirer         Biogen Idec Inc 
+SDC CUSIP        30474M 
+SDC ticker       FACT 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                981 
+resolution.date  14579 
+target           Lexcom Inc 
+acquirer         Windstream Corp 
+SDC CUSIP        528864 
+SDC ticker       LXCMB 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+
+
+i                984 
+resolution.date  14622 
+target           Ventura Gold Corp 
+acquirer         International Minerals Corp 
+SDC CUSIP        923219 
+SDC ticker       VGO 
+--> Cannot find matching PERMNO, so I leave entry as 'NA' (assuming that it had this value before being passed to this function.
+################################################################################
